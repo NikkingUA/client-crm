@@ -1,0 +1,43 @@
+{
+  "host": [
+    {
+      "id": 1,
+      "first_name": "Nikita",
+      "last_name": "Postoienko",
+      "email": "nikita.postoienko@gmail.com",
+      "number_telefon": "+39 327 056 6113",
+      "address": {
+        "city": "Varese",
+        "street": "Via Carletto Ferrari, 36",
+        "zip_code": "21100"
+      }
+    }
+  ],
+
+  "car_of_sale": [
+    {
+      "hostId": 1,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "year": "2005",
+      "km": "250000",
+      "price": "3000",
+      "accessories": ["Airbag", "Audio System", "ABS"],
+      "info_general": {
+        "state_car": "Usata",
+        "power_supply": "Bensina",
+        "year_buy": "2007",
+        "transmission": "Manuale"
+      }
+    }
+  ],
+
+  "accessories_for_car": [
+    {
+      "hostId": 1,
+      "brand": "Toyota",
+      "model": "Yaris",
+      "part_of_car": "Cambio Manuale"
+    }
+  ]
+}
